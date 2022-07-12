@@ -21,7 +21,7 @@ void LongestByArray()
 	int start = 0;             // початок найдовшого слова
 	int max_length = 0;            // його довжина
 	int curr = 0;              // початок тексту
-	while (text[curr] != '\0') // опрацювання до термінального символа
+	while (text[curr] != '\0') // опрацювання до термінального символу
 	{
 		int pos = curr;        // початок чергового слова
 		while (text[curr] != '\0' && text[curr] != ' ')	++curr; // шукаємо його закінчення

@@ -176,7 +176,7 @@ void TryFprint()
 	FormattedPrint("Number(2) = %b1\n", 1023);
 	cout << " --- ‘орматоване виведенн€ числа\n";
 	int percentage = 75;
-	FormattedPrint("як≥сна усп≥шн≥сть склала %d%%\n", percentage);
+	FormattedPrint("як≥сна усп≥шн≥сть становила %d%%\n", percentage);
 	cout << " --- ‘орматоване виведенн€ посл≥довност≥\n";
 	int a[] = { 1, 2, 4, 8, 16, 32, 64, 128, 256 };
 	cout << "—тепен≥ 2 {";

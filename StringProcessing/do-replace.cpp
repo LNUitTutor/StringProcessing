@@ -2,7 +2,7 @@
 
 char* Replace(char* source, char what, const char* by)
 {
-	// порахуємо, скільки разів зустрічається шукана літера
+	// порахуємо, скільки разів трапляється шукана літера
 	// водночас дізнаємося довжину рядка
 	unsigned counter = 0;
 	unsigned length = 0;

@@ -80,7 +80,7 @@ int RecognizeInteger(const char* line, int& pos)
 			++curr;
 		}
 		else
-		{                            // фіксуємо позицію нечислового символа
+		{                            // фіксуємо позицію нечислового символу
 			pos = curr - line;
 			break;
 		}
